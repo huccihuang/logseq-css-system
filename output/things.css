@@ -3736,14 +3736,6 @@ a {
   margin-bottom: 0.25rem;
 }
 
-.scrollbar-spacing,
-.tippy-wrapper,
-#main-container,
-.cp__palette-main .command-results-wrap,
-.cp__palette-main .search-results-wrap > div:first-child {
-  margin-right: 0.25rem;
-}
-
 .scrollbar-spacing #main-container,
 .tippy-wrapper {
   margin-top: 0.25rem;
