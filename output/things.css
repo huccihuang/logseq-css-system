@@ -1687,7 +1687,7 @@ a svg {
 }
 
 #left-sidebar .favorites div.header:hover svg {
-	fill: 		var(--cl-aluminium);
+	stroke: var(--cl-boulder);
 }
 .dark-theme #left-sidebar .favorites div.header:hover svg,  html[data-theme=dark] #left-sidebar .favorites div.header:hover svg {
 	fill: 		var(--cl-steel);
@@ -2026,7 +2026,7 @@ a svg {
 }
 
 #left-sidebar .recent div.header:hover svg {
-	fill: 		var(--cl-aluminium);
+	stroke: var(--cl-boulder)
 }
 .dark-theme #left-sidebar .recent div.header:hover svg,  html[data-theme=dark] #left-sidebar .recent div.header:hover svg {
 	fill: 		var(--cl-steel);
