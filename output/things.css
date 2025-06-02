@@ -1606,7 +1606,7 @@ a svg {
 }
 
 #left-sidebar .favorites ul .favorite-item a:hover {
-	background-color: 		transparent;
+	background-color: 		var(--cl-gallery);
 	border-top: 			transparent;
 	border-right: 			transparent;
 	border-bottom: 			transparent;
@@ -1644,7 +1644,7 @@ a svg {
 }
 
 #left-sidebar .favorites div.header:hover {
-	background-color: 		transparent;
+	background-color: 		var(--cl-gallery);
 	border-top: 			transparent;
 	border-right: 			transparent;
 	border-bottom: 			transparent;
@@ -1824,7 +1824,7 @@ a svg {
 }
 
 #left-sidebar .nav-header > div a:hover {
-	background-color: 		transparent;
+	background-color: 		var(--cl-gallery);
 	border-top: 			transparent;
 	border-right: 			transparent;
 	border-bottom: 			transparent;
@@ -1956,7 +1956,7 @@ a svg {
 }
 
 #left-sidebar .recent ul .recent-item a:hover {
-	background-color: 		transparent;
+	background-color: 		var(--cl-gallery);
 	border-top: 			transparent;
 	border-right: 			transparent;
 	border-bottom: 			transparent;
@@ -1994,7 +1994,7 @@ a svg {
 }
 
 #left-sidebar .recent div.header:hover {
-	background-color: 		transparent;
+	background-color: 		var(--cl-gallery);
 	border-top: 			transparent;
 	border-right: 			transparent;
 	border-bottom: 			transparent;
