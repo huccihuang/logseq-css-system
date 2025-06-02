@@ -2143,11 +2143,6 @@ a svg {
 
 #main-content-container .absolute-modal {
 	background-color: 		var(--cl-fadedwhite);
-	border-top: 			1px solid var(--cl-iron);
-	border-right: 			1px solid var(--cl-iron);
-	border-bottom: 			1px solid var(--cl-iron);
-	border-left: 			1px solid var(--cl-iron);
-	border-radius: 			8px;
 	box-shadow: 			0 10px 15px -3px rgba(0, 0, 0, 0.1),0 4px 6px -2px rgba(0, 0, 0, 0.05);
 	--webkit-box-shadow: 	0 10px 15px -3px rgba(0, 0, 0, 0.1),0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
@@ -2171,13 +2166,13 @@ a svg {
 }
 
 #main-content-container .absolute-modal a.menu-link.chosen {
-	background-color: 		var(--cl-magnesium);
+	background-color: var(--cl-edgewater);
+    color: var(--cl-fadedblack);
 	border-top: 			transparent;
 	border-right: 			transparent;
 	border-bottom: 			transparent;
 	border-left: 			transparent;
 	border-radius: 			5px;
-	color: 					var(--cl-white);
 }
 .dark-theme #main-content-container .absolute-modal a.menu-link.chosen,  html[data-theme=dark] #main-content-container .absolute-modal a.menu-link.chosen {
 	background-color: 		var(--cl-steel);
@@ -3730,21 +3725,10 @@ a {
   transition: none;
 }
 
-.absolute-modal #ui__ac {
-  margin-right: 0.25rem;
-  margin-top: 0.25rem;
-  margin-bottom: 0.25rem;
-}
-
 .scrollbar-spacing #main-container,
 .tippy-wrapper {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
-}
-
-#custom-context-menu,
-.absolute-modal #ui__ac #ui__ac-inner {
-  padding: 0.25rem;
 }
 
 /* Fix margins for favorite and recent items */
