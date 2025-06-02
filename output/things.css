@@ -1349,13 +1349,13 @@ textarea::selection {
 }
 
 *:is(#left-sidebar, #app-container) .dropdown-wrapper a.menu-link:hover {
-	background-color: 		var(--cl-magnesium)!important;
+	background-color: 		var(--cl-fadedwhite)!important;
 	border-top: 			transparent;
 	border-right: 			transparent;
 	border-bottom: 			transparent;
 	border-left: 			transparent;
 	border-radius: 			5px!important;
-	color: 					var(--cl-white);
+	color: 					var(--cl-ebony);
 }
 .dark-theme *:is(*:is(#left-sidebar, #app-container) .dropdown-wrapper a.menu-link:hover), html[data-theme=dark] *:is(*:is(#left-sidebar, #app-container) .dropdown-wrapper a.menu-link:hover) {
 	background-color: 		var(--cl-steel)!important;
