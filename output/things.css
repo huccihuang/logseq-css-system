@@ -654,11 +654,7 @@ div[data-refs-self*='"card"'] {
 }
 
 :not(pre)>code {
-	background-color: 		var(--cl-alabaster);
-	border-top: 			1px solid var(--cl-gallery);
-	border-right: 			1px solid var(--cl-gallery);
-	border-bottom: 			1px solid var(--cl-gallery);
-	border-left: 			1px solid var(--cl-gallery);
+	background-color: var(--cl-antiflash);
 	border-radius: 			5px;
 	color: 					var(--cl-vulcan);
 	font-family: 			Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;;
