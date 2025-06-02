@@ -3459,16 +3459,17 @@ a svg {
 }
 
 #head .button:hover {
-	color: 					var(--cl-cornblue);
-	opacity: 				;
+	background-color: var(--cl-porcelain);
+    color: var(--cl-gunmetal);
 }
 .dark-theme #head .button:hover,  html[data-theme=dark] #head .button:hover {
 	color: 					var(--cl-maya);
 }
 
 #head a.button:hover .ti {
-	color: 					var(--cl-cornblue);
+	color: var(--cl-gunmetal);
 }
+
 .dark-theme #head a.button:hover .ti,  html[data-theme=dark] #head a.button:hover .ti {
 	color: 					var(--cl-maya);
 }
@@ -3481,7 +3482,7 @@ a svg {
 }
 
 #head a.button:hover {
-	background-color: 		transparent;
+	background-color: var(--cl-porcelain);
 	opacity: 				1;
 }
 .dark-theme #head a.button:hover,  html[data-theme=dark] #head a.button:hover {
