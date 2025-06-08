@@ -3765,9 +3765,7 @@ html[data-theme="light"] .form-checkbox:checked {
   margin-left: 5px !important;
 }
 
-.cm-s-solarized .CodeMirror-linenumber,
-.CodeMirror-gutter-background,
-.cm-s-solarized .CodeMirror-gutters {
+.CodeMirror-gutters, .CodeMirror-linenumber {
   display: none;
 }
 
@@ -3915,12 +3913,6 @@ blockquote:before {
 *:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card).page-reference[data-ref="card"].tag,
 *:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card)
   a[data-ref="card"].tag {
-  display: none;
-}
-
-.cm-s-solarized .CodeMirror-linenumber,
-.CodeMirror-gutter-background,
-.cm-s-solarized .CodeMirror-gutters {
   display: none;
 }
 
