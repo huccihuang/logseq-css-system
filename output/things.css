@@ -3922,3 +3922,8 @@ span.inline mark{
   border-radius: 0;
   padding: 1px;
 }
+
+:root{
+  --ls-scrollbar-width: 3px;
+  scrollbar-color: unset;
+}
