@@ -1224,12 +1224,6 @@ textarea::selection {
 
 #custom-context-menu {
 	background-color: 		var(--cl-fadedwhite);
-	border-top: 			1px solid var(--cl-iron);
-	border-right: 			1px solid var(--cl-iron);
-	border-bottom: 			1px solid var(--cl-iron);
-	border-left: 			1px solid var(--cl-iron);
-	border-radius: 			8px;
-	box-shadow: 			0 10px 15px -3px rgba(0, 0, 0, 0.1),0 4px 6px -2px rgba(0, 0, 0, 0.05);
 	--webkit-box-shadow: 	0 10px 15px -3px rgba(0, 0, 0, 0.1),0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 .dark-theme #custom-context-menu,  html[data-theme=dark] #custom-context-menu {
