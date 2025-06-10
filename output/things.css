@@ -3910,7 +3910,7 @@ blockquote:before {
   font-size: 1rem;
 }
 
-.line mark{
+span.line mark{
   background-color: transparent;
   background-image: linear-gradient(
     0deg,
@@ -3918,5 +3918,7 @@ blockquote:before {
     #ffec00 2px,
     #ffec0033 2px,
     #ffec0033 100%
-  )
+  );
+  border-radius: 0;
+  padding: 2px 2px;
 }
