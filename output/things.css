@@ -3041,11 +3041,6 @@ a svg {
 
 .ui__modal-panel .panel-content {
 	background-color: 		var(--cl-whitesmoke)!important;
-	border-top: 			1px solid var(--cl-iron);
-	border-right: 			1px solid var(--cl-iron);
-	border-bottom: 			1px solid var(--cl-iron);
-	border-left: 			1px solid var(--cl-iron);
-	border-radius: 			8px;
 }
 .dark-theme .ui__modal-panel .panel-content,  html[data-theme=dark] .ui__modal-panel .panel-content {
 	background-color: 		var(--cl-bunker)!important;
